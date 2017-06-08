@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+body {
+    padding-top: 80px;
+}
+.img_size img {
+    height: 150px;
+}
+.lead > a {
+    color: darkgray;
+    font-size: 15px;
+}
+.menu-dish-box {
+    border: 1px solid #eeeeee;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+
+.logo {
+    font-family: 'Kumar One', cursive;
+    /*src: url('/public/fonts/KumarOne-Regular.ttf');*/
+    font-size: 1.3em;
+}
