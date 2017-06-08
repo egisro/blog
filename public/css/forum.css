@@ -1,6 +1,13 @@
-.form-spacing-top {
+body {
+    padding-top: 80px;
+}.form-spacing-top {
     margin-top: 30px;
 }
 .btn-spacing {
     margin-top: 15px;
+}
+
+.fa-3x {
+    color:#5cb85c;
+
 }
