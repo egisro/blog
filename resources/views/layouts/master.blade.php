@@ -55,6 +55,7 @@
                                     <a class="dropdown-item" href="{{ route('admin.products') }}">Products</a>
                                     <a class="dropdown-item" href="#">Users</a>
                                     <a class="dropdown-item" href="#">Orders</a>
+                                    <a class="dropdown-item" href="{{ route('posts.index') }}">Posts</a>
                                     <a class="dropdown-item" href="#">Reservations</a>
                                     <a class="dropdown-item" href="#">Profile</a>
                                     <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>

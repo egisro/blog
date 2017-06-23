@@ -19,8 +19,8 @@ Route::get('/', [
     'as' => 'home',
     'uses' => 'PagesController@home'
 
-]);
 
+]);
 Route::get('/pages/{id}/show', 'PagesController@show')->name('pages.show');
 
 Route::get('//pages/contacts', 'PagesController@contact')->name('pages.contacts');
