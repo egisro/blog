@@ -32,7 +32,7 @@
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item {{ Request::is('/') ? "active" : "" }}">
-                            <a class="nav-link" href="{{ route('home') }}">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item {{ Request::is('forum') ? "active" : "" }}">
                             <a class="nav-link" href="{{ route('forum') }}">Forum</a>

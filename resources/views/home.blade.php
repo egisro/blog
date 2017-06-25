@@ -8,7 +8,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading"><span style="font-size: 2em;">User's profile : <strong> {{ Auth::user()->name }} </strong></span></div>
 
-                <a href="{{ route('pages.home') }}"><button type="button" class="btn btn-outline-primary pull-right">Back to products</button></a>
+                <a href="{{ route('admin.products') }}"><button type="button" class="btn btn-outline-primary pull-right">Back to products</button></a>
 
                 <div class="panel-body">
                     You are logged in!
